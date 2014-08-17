@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Loading Bootstrap -->
+    <link href="http://cdn.bootcss.com/twitter-bootstrap/2.2.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="/cgi-bin/Main.py">
+      <div class="container">
+        <div class="login">
+          <div class="login-screen">
+            <div class="login-icon">
+              <img src="images/login/Book.png" alt="Welcome to Add a Book" />
+              <h4>Welcome to <small>Add a Book</small></h4>
+            </div>
+            <div class="login-form">
+              <div class="control-group">
+                <input type="text" class="login-field" value="" placeholder="Your Book Name" id="login-name" name="bookname" />
+              </div>
+              <div class="control-group">
+                <input type="text" class="login-field" value="" placeholder="Your Book Kind" id="login-pass" name="bookkind"/>
+              </div>
+              <button class="btn btn-primary btn-large btn-block">Add This Book</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- Load JS here for greater good =============================-->
+  </body>
+</html>
